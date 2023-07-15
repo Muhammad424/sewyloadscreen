@@ -1,4 +1,5 @@
-local ScreenGui = Instance.new("ScreenGui")
+if _G.LoadingScreen ~= false then
+    local ScreenGui = Instance.new("ScreenGui")
                             local Frame = Instance.new("Frame")
                             local TextLabel = Instance.new("TextLabel")
                             local ImageLabel = Instance.new("ImageLabel")
@@ -47,3 +48,4 @@ local ScreenGui = Instance.new("ScreenGui")
                             TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
                             TextLabel_2.TextSize = 36.000
                             TextLabel_2.TextWrapped = true
+end
